@@ -1,397 +1,240 @@
-           
-           /** SMARTPHONE SCHERMEN */
-@media only screen and (min-width: 370px) and (max-width: 600px){
+body{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** SCHERM MACBOOK 13INCH - GOOGLE CHROME */
+@media only screen and (min-width: 1424px) {
     body{
+        overflow-x: hidden;
         width: 100%;
         height: auto;
-        margin: 0;
-        padding: 0;
     }
+
     /** HEADER */
-#color-Div{
-    width: 100%;
-    height: 250px;
-    background-color: rgb(245 115 17);
-}
-#color-Div h3{
-    text-align: center;
-    font-size: 45px;
-    padding-top: 70px;
-    color: rgb(245 247 252);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#color-Div p{
-    text-align: center;
-    font-size: 25px;
-    padding-top: 20px;
-    color: rgb(253 234 224);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#color-Div2{
-    width: 100%;
-    height: 180px;
-    background-color: rgb(189 86 14);
-}
-#color-Div2 ul{
-    text-align: center;
-    word-spacing: 15px;
-    padding-top: 3px;
-    padding-left: 10px;
-}
-#color-Div2 ul li{
-    display: block;
-    padding-top: 12px;
-    font-size: 25px;
-    word-spacing: -2px;
-    color: rgb(245 247 252);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#color-Div2 ul li a{
-    cursor: pointer;
-}
-#color-Div2 a:hover{
-    color: rgb(253 234 224);
-}
-#color-Div3{
-    width: 100%;
-    min-height: 5px;
-    background-color: rgb(254 215 9);
-}
-/** END - HEADER*/
+    #header-Div{
+        background-color: rgb(245 113 20);
+        width: 100%;
+        height: 200px;
+    }
+    #header-Div h3, p{
+        text-align: center;
+        color: rgb(253 252 252);
+        padding-top: 50px;
+    }
+    #header-Div h3{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #header-Div p{
+        padding-top: 20px;
+        font-size: 19px;
+    }
 
-/** ASIDE */
-#aside{
-    width: 100%;
-    min-height: 800px;
-    background-color: rgb(255 183 133);
-}
-#aside h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-    font-weight: bold;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-#aside img{
-    width: 300px;
-    height: 350px;
-    position: absolute;
-    left: 50px;
-    padding-top: 30px;
-}
-#aside p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 400px;
-    padding-left: 20px;
-}
-/** END - ASIDE */
+    #header-Nav{
+        background-color: rgb(189 86 14);
+        width: 100%;
+        height: 50px;
+    }
+    #header-Nav ul{
+        list-style: none;
+        word-spacing: 15px;
+    }
+    #header-Nav ul li{
+        display: inline-block;
+        padding-top: 13px;
+        padding-left: 25px;
+        color: rgb(255 254 254);
+        word-spacing: -1px;
+        font-size: 20px;
+    }
+    #header-Nav a{
+        cursor: pointer;
+    }
+    #header-Nav a:hover{
+        color: rgb(243 112 22);
+    }
 
-/** MAIN */
-#main{
-    width: 100%;
-    min-height: 1870px;
-    background-color: white;
-    position: absolute;
-    left: 0;
-    margin-top: 40px;
-}
-#main h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-    padding-top: 20px;
-    padding-left: 20px;
-    color: rgb(191 86 16);
-}
-#main-docent{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-#main-pa1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-top: 30px;
-    padding-left: 20px;  
-}
-#main-pa2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding: 20px;
-    padding-left: 20px;
-    word-spacing: 0px;
+    #color-Div{
+        width: 100%;
+        height: 5px;
+        background-color: rgb(254 215 9);
+    }
+
+                      /*-- HEADER IS KLAAR/*
+
+    /** ASIDE */
+    aside{
+        background-color: rgb(255 183 133);
+        width: 30%;
+        height: 1300px;
+    }
+    #aside h3{
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #aside img{
+        width: 85%;
+        padding-top: 40px;
+        padding-left: 40px;
+    }  
+
+    #aside p{
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 30px;
+    }
+
     
-}
-#img-hannah{
-    width: 120px;
-    height: 140px;
-    margin-left: 280px;
-    top: 160px;
-    position: absolute;
-}
-#main-pa3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-top: 5px;
-    padding-left: 20px;
-}
-#main-docent2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-#img-jesse{
-    width: 160px;
-    height: 200px;
-    margin-left: 10px;
-    padding-top: 40px;
-    position: absolute;
-}
-#main-pa4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-left: 150px;
-    padding: 20px;
-    padding-top: 10px;
-    position: absolute;
-}
-#main-ph{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-left: 25px;
-    margin-top: 400px;
-    position: absolute;
-}
-#main-pa5{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-top: 430px;
-    margin-left: 25px;
-    position: absolute;
+                        /*-- ASIDE IS KLAAR /*
+
+    /** BEGIN MAIN*/
+    main{
+        width: 70%;
+        height: 1300px;
+        top: 255px;
+        left: 427.5px;
+        position: absolute;
+    }
+    #main-H3-1{
+        padding-left: 30px;
+        padding-top: 30px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(245 115 17);
+    }
+    #main-Pa1 {
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+    #main-Pa2{
+        color: black;
+        font-size: 18px;
+        padding-top: 30px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #main-Pa3{
+        color: black;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #main-2 img{
+        width: 35%;
+        top: 130px;
+        left: 570px;
+        position: absolute;
+    }
+    #main-Pa4{
+        color: black;
+        font-size: 18px;
+        padding-top: 50px;
+        padding-left: 30px;
+        text-align: left;
+    }
+    #main-H3-2{
+        text-align: left;
+        padding-left: 30px;
+        padding-top: 40px;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(245 115 17);
+    }
+    #main-Pa5{
+        font-size: 18px;
+        padding-top: 30px;
+        text-align: left;
+        padding-left: 30px;
+        font-weight: bold;
+        color: black;
+    }
+    #img-Jesse{
+        width: 35%;
+        padding-top: 40px;
+        padding-left: 40px;
+    }
+    #main-Pa6{
+        color: black;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 400px;
+        top: 800px;
+        position: absolute;
+    }
+    #main-Pa7{
+        font-weight: bold;
+        font-size: 20px;
+        top: 970px;
+        position: absolute;
+        padding-left: 400px;
+        text-align: left;
+        color: black;
+    }
+    #main-Pa8{
+        font-size: 18px;
+        top: 1020px;
+        position: absolute;
+        padding-left: 400px;
+        text-align: left;
+        color: black;
+    }
+        
+                        /*-- MAIN IS KLAAR */
+    
+    /** BEGIN FOOTER */
+
+    footer{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(189 86 14);
+        top: 0;
+        position: relative;
+    }
+    #footer-Pa1{
+        color: black;
+        font-size: 18px;
+        padding-top: 26px;
+    }
+    #footer-Pa2{
+        color: black;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+                        /*-- FOOTER IS KLAAR */
 }
 
-/** END - MAIN */
-
-/** FOOTER */
-#footer{
-    width: 100%;
-    height: 100px;
-    margin-top: 1740px;
-    position: absolute;
-    background-color: rgb(209 94 14);
-}
-#footer p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 30px;
-}
-#footer-pa2{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -20px;
-}
-/** END - FOOTER */
-
-}
 
 
-           /** GROTERE SCHERMEN */
-@media only screen and (min-width: 1440px){
+
+
+
+
+                        /*! RESPONSIVE IS FOR LATER! */
+                        /*! EERST ALLE PAGINA'S MAKEN */
+
+/** SCHERM IPHONE 11*/
+@media only screen and (min-width: 413px) and (max-width: 1423px){
+    *{
+        background-image: url(/img/nr.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     body{
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+        display: none;
+    }
 }
 
-/** HEADER */
-#color-Div{
-    width: 100%;
-    height: 250px;
-    background-color: rgb(245 115 17);
-}
-#color-Div h3{
-    text-align: center;
-    font-size: 50px;
-    padding-top: 70px;
-    color: rgb(245 247 252);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#color-Div p{
-    text-align: center;
-    font-size: 25px;
-    padding-top: 20px;
-    color: rgb(253 234 224);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#color-Div2{
-    width: 100%;
-    height: 70px;
-    background-color: rgb(189 86 14);
-}
-#color-Div2 ul{
-    text-align: left;
-    word-spacing: 15px;
-    padding-top: 19px;
-    padding-left: 10px;
-}
-#color-Div2 ul li{
-    display: inline-block;
-    font-size: 25px;
-    word-spacing: -2px;
-    color: rgb(245 247 252);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#color-Div2 ul li a{
-    cursor: pointer;
-}
-#color-Div2 a:hover{
-    color: rgb(253 234 224);
-}
-#color-Div3{
-    width: 100%;
-    height: 10px;
-    background-color: rgb(254 215 9);
-}
-/** END - HEADER*/
-
-/** ASIDE */
-#aside{
-    width: 25%;
-    height: 1550px;
-    background-color: rgb(255 183 133);
-}
-#aside h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-#aside img{
-    width: 300px;
-    height: 400px;
-    position: absolute;
-    left: 50px;
-    padding-top: 30px;
-}
-#aside p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 450px;
-    padding-left: 20px;
-}
-/** END - ASIDE */
-
-
-/** MAIN */
-#main{
-    width: 75%;
-    height: 1550px;
-    background-color: white;
-    position: absolute;
-    left: 480px;
-    top: 330px;
-}
-#main h3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    padding-top: 20px;
-    padding-left: 20px;
-    color: rgb(191 86 16);
-}
-#main-docent{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-#main-pa1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
-    padding-left: 20px;  
-}
-#main-pa2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 70px;
-    padding-left: 20px;
-    
-}
-#img-hannah{
-    width: 350px;
-    height: 500px;
-    right: 400px;
-    top: 220px;
-    position: absolute;
-}
-#main-pa3{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 70px;
-    padding-left: 20px;
-}
-#main-docent2{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 20px;
-    padding-left: 20px;
-    font-weight: bold;
-}
-#img-jesse{
-    width: 370px;
-    height: 500px;
-    padding-left: 70px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    position: absolute;
-}
-#main-pa4{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    right: 400px;
-    padding-top: 20px;
-    position: absolute;
-}
-#main-ph{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: bold;
-    left: 450px;
-    padding-top: 210px;
-    position: absolute;
-}
-#main-pa5{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    padding-top: 270px;
-    left: 450px;
-    position: absolute;
-}
-
-/** END - MAIN */
-
-/** FOOTER */
-#footer{
-    width: 100%;
-    height: 100px;
-    position: relative;
-    background-color: rgb(209 94 14);
-}
-#footer p{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 30px;
-}
-#footer-pa2{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: -20px;
-}
-/** END - FOOTER */
-}
